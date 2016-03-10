@@ -1,4 +1,4 @@
-#Build 1.0.5
+#Build 1.0.6
 
 from getopt import getopt, GetoptError
 from smtplib import SMTP

@@ -13,7 +13,8 @@
     <Name>IP Notify</Name>
     <RootNamespace>IP Notify</RootNamespace>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>-f "mmrpinotify@gmail.com" -t "matthewmawson@gmail.com" -u "mmrpinotify@gmail.com" -p "rpimoarsecure"</CommandLineArguments>
+    <CommandLineArguments>
+    </CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
