@@ -1,4 +1,4 @@
-#Build 1.0.6
+#Build 1.0.7
 
 from getopt import getopt, GetoptError
 from smtplib import SMTP
@@ -16,7 +16,7 @@ def getIP():
 
 def sendEmail(fromaddr, toaddr, hostname, username, password):
     #Build email to send via GMail SMTP
-    msg = '\r\n'.join(['From: ' + fromaddr, 'To: ' + toaddr, 'Subject: ' + hostname + ' Just Turned On!', '', 'The Local IP is: ' + getIP()])
+    msg = '\r\n'.join(['From: ' + fromaddr, 'To: ' + toaddr, 'Subject: ' + hostname + ' Just Turned On!', 'The Local IP is: ' + getIP()])
     server = SMTP('smtp.gmail.com:587')
     server.ehlo()
     server.starttls()
